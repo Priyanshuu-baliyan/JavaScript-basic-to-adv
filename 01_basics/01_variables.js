@@ -8,7 +8,7 @@ let accountState; // undefined
 // accountId = 2; // Not Allowed
 console.log(accountId);
 
-/* Don't Use var Because it have a issue in Block Space & function Space;*/
+/* prefer not to Use var Because it have a issue in Block Space & function Space;*/
 
 accountMail = "cba@gmail.com";
 accountPass = "5432";

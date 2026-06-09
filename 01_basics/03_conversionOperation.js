@@ -28,6 +28,40 @@ let isLoggedIn = 1;
 let anyNumber = 123
 let stringAnyNumber = String(anyNumber);
 
-console.log(typeof stringAnyNumber);
-console.log (stringAnyNumber);
+// console.log(typeof stringAnyNumber);
+// console.log (stringAnyNumber);
+
+// Operations
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+3);
+// console.log(2-3);
+// console.log(2*3);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+str1 = "Hello";
+str2 = " Priyanshu";
+str3 = str1 + str2;
+// console.log(str3);
+
+// console.log(1 + "2");
+// console.log("1" + "2");
+// console.log("1" + 2);
+// console.log(1 + "2" + 2);
+// console.log("1" + "2" + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(+true); // 1
+// console.log(+false); // 0
+// console.log(+ " "); // 0
+
+let gameCnt = 100
+// gameCnt++;
+++gameCnt;
+console.log(gameCnt);
+
 

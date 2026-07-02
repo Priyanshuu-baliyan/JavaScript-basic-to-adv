@@ -35,3 +35,22 @@ const myFunc = function(){
 
 console.log(typeof null)
 console.log(typeof obj)
+
+// Stack (Primitive) and Heap(Non-Primitive) in memory
+
+let myName = "Priyanshu"
+let fullName = myName
+fullName = "Priyanshu Baliyan"
+console.log(myName);
+console.log(fullName);
+
+let user1 = {
+    email : "xyz@google.com",
+    upi : "xy@ybl"
+}
+
+
+let user2 = user1
+user2.email = "abc@google.com"
+console.log(user2.email)
+console.log(user1.email)

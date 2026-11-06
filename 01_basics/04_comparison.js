@@ -7,9 +7,9 @@
 // console.log("2" > 1);
 // console.log(2 > "1");
 
-// console.log(null > 0); // true because >= convert the null to a number, treating it as 0.
-// console.log(null >= 0);
-// console.log(null == 0);
+// console.log(null > 0); 
+// console.log(null >= 0); // true because >= convert the null to a number, treating it as 0.
+// console.log(null == 0); // false equality check work differently and comparison differently
 // console.log(null === 0); // strict check
 // console.log(null <= 0); // true
 

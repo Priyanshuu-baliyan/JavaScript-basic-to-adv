@@ -63,7 +63,7 @@ const user = {
 function handleObject(anyObject){
   console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
 }
-// handleObject(user) // problem occurs if we change something in Object. suppose price to prices then it will give Undefined
+// handleObject(user) // problem occurs if we change something in Object. suppose price to prices then it will return Undefined
 
 handleObject({
   username: "Bruce",

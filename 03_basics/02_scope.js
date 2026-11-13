@@ -47,7 +47,7 @@ function addone(num){
 }
 
 
-addTwo(5)
+addTwo(5) // it will give ReferenceError: Cannot access 'addTwo' before initialization
 const addTwo = function(num){
   return num + 2
 }

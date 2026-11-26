@@ -32,3 +32,4 @@ const shoppinCart = [
 const priceToPay = shoppinCart.reduce( (acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+// revision map, filter, reduce
